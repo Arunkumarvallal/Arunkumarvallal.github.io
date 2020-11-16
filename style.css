@@ -159,6 +159,15 @@ svg:not(:root) {
     width: 100%;
     text-align: center;
 }
+h5{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 19.25px;
+display: block;
+margin-bottom: 0;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+
+}
 body,html{
     background-color: #2b2b2b;
     color:white;
