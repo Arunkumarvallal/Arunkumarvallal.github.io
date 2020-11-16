@@ -175,5 +175,6 @@ body,html{
     font-size: 15.75px;
     letter-spacing: 1.25px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
    }
   
