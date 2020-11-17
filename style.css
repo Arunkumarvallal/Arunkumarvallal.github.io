@@ -168,6 +168,11 @@ margin-inline-start: 0px;
 margin-inline-end: 0px;
 
 }
+.frame{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
 body,html{
     background-color: #2b2b2b;
     color:white;
