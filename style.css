@@ -183,22 +183,29 @@ body,html{
     scroll-behavior: smooth;
    }
   
-@media(max-width: 768px){
+@media screen and (max-width: 720px){
     .div1{
-        margin: 0px;
+        margin:00px;
         padding: 0px;
         padding-left: 0;
         border-radius: 0;
-    }
+        
+    } 
     .image{
         border-radius: 100;
-        
+        width:100%;
     }   
     .div_main{
         padding-left: 0;
-        margin: 0 0 0;
+        margin: 0;
+        padding-right: 0;
         padding: 0;
         border-radius: 0;
+    }
+    body{
+        padding: 0;
+        margin: 10;
+        margin-right: 0;
     }
     p{
         font-size: 30px;
@@ -209,6 +216,8 @@ body,html{
     html{
         background-color: black;
         overflow-x:hidden !important;
+        margin-right:0;
+        width: 0;
     }
     h5{
         font-size: 34px;
