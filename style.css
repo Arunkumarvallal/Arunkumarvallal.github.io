@@ -135,6 +135,23 @@ svg:not(:root) {
     cursor: pointer;
     user-select: none;
 }
+.cdx-checklist__item-checkboxs { 
+    display: inline-block;
+    flex-shrink: 0;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    margin: 0px 10px 10px 0;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    /* border: 1px solid #d0d0d0; */
+    background:  #307cd1;
+    cursor: pointer;
+    user-select: none;
+}
 .cdx-checklist__item-checkbox::after {
     top: 5px!important;
     left: 4px!important;
@@ -182,7 +199,13 @@ body,html{
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
    }
-  
+.timeline{
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.workTitle{
+    margin-top: 0px;
+}
 @media screen and (max-width: 720px){
     .div1{
         margin:00px;
