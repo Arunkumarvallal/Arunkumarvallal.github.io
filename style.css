@@ -7,7 +7,7 @@
     padding: 20px;
     margin: auto;
     border-radius: 30px;
-    width: 880px;
+    width: 895px;
     overflow-wrap: break-word;
     background:black;
     border-radius: 30px;
@@ -103,6 +103,10 @@ svg:not(:root) {
     outline: none;
     flex-grow: 1;
     margin:  2;
+    text-align: justify;
+}
+.about{
+    text-align: justify;
 }
 .cdx-checklist__item-checkbox::after {
     position: absolute;
@@ -200,8 +204,8 @@ body,html{
     scroll-behavior: smooth;
    }
 .timeline{
-    margin-left: 30px;
-    margin-top: -10px;
+    margin-left: 40px;
+    margin-top: 5px;
 }
 .workTitle{
     margin-top: 0px;
@@ -221,7 +225,7 @@ body,html{
     .div_main{
         padding-left: 0;
         margin: 0;
-        padding-right: 0;
+        padding-right: 100;
         padding: 0;
         border-radius: 0;
     }
